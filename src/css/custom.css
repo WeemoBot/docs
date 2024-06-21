@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #852e2e;
+  --ifm-color-primary-dark: #782929;
+  --ifm-color-primary-darker: #712727;
+  --ifm-color-primary-darkest: #5d2020;
+  --ifm-color-primary-light: #923333;
+  --ifm-color-primary-lighter: #993535;
+  --ifm-color-primary-lightest: #ad3c3c;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #c22525;
+  --ifm-color-primary-dark: #af2121;
+  --ifm-color-primary-darker: #a51f1f;
+  --ifm-color-primary-darkest: rgb(73, 15, 15);
+  --ifm-color-primary-light: #d52929;
+  --ifm-color-primary-lighter: #d83232;
+  --ifm-color-primary-lightest: #dd4f4f;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 996px) {
+  .navbar {
+    background-color: transparent;
+    box-shadow: unset;
+  }
+}
+
+/**
+ * Change <details> and <summary> CSS.
+ */
+details {
+  background-color: transparent !important;
+  border-color: var(--ifm-color-primary-light) !important;
+}
+
+summary::before {
+  border-color: transparent transparent transparent var(--ifm-color-primary-light) !important;
+  color: white !important;
+}
+
+details summary {
+  font-weight: bold;
+}
+
+.alert--info {
+  --ifm-alert-background-color-highlight: rgba(236, 84, 84, 0.15)
+  --ifm-alert-border-color: var(--ifm-color-primary-light);
+  
+}
+
+[class^="collapsibleContent"] {
+  border-top: 1px solid var(--ifm-color-primary-light) !important;
+  color: var(--ifm-alert-foreground-color);
+}
