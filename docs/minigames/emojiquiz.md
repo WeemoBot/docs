@@ -11,12 +11,12 @@ Für jedes erratene Wort gibt es je nach Schwierigkeit Cornichon-Punkte.
 
 Wie wird es eingerichtet?
 --------------------------
-Es muss ein Textkanal mit ``/emojiquiz setchannel`` konfiguriert werden.
+Es muss ein Textkanal mit ``/emojiquiz channel`` konfiguriert werden.
 
 # Es startet nicht, was soll ich tun?
 - Gebe ``/emojiquiz settings`` ein und schaue nach, ob Weemo den Kanal aufgelistet hat.
-- Überprüfe, ob Weemo die Berechtigungen **Nachrichten verwalten**, **Links einbetten** und **Reaktionen hinzufügen** hat.
-- Falls Weemo die benötigten Berechtigungen hat, gebe ``/emojiquiz repair`` ein.
+- Überprüfe, ob Weemo die Berechtigungen **Nachrichten senden**, **Nachrichten verwalten**, **Nachrichtenverlauf einsehen**, **Links einbetten** und **Reaktionen hinzufügen** hat.
+- Falls Weemo die benötigten Berechtigungen hat, setze den Kanal erneut.
 
 Was ist die Lösung zu diesem Emojiquiz?
 --------------------------

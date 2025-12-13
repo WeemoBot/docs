@@ -10,11 +10,11 @@ Weemo sucht eine zufällige Zahl aus. Du musst versuchen, diese Zahl zu erraten.
 
 Wie wird es eingerichtet?
 --------------------------
-Es muss ein Textkanal mit ``/guessthenumber setchannel`` konfiguriert werden.
+Es muss ein Textkanal mit ``/guessthenumber channel`` konfiguriert werden.
 
 # Es startet nicht, was soll ich tun?
 - Gebe ``/guessthenumber settings`` ein und schaue nach, ob Weemo den Kanal aufgelistet hat.
-- Überprüfe, ob Weemo die Berechtigungen **Nachrichten verwalten**, **Links einbetten** und **Reaktionen hinzufügen** hat.
+- Überprüfe, ob Weemo die Berechtigungen **Nachrichten senden**, **Nachrichten verwalten**, **Nachrichtenverlauf einsehen**, **Links einbetten** und **Reaktionen hinzufügen** hat.
 - Falls Weemo die benötigten Berechtigungen hat, setze den Kanal erneut.
 
 Was bedeuten die Reaktionen?

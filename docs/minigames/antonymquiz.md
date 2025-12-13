@@ -11,7 +11,7 @@ Für jedes erratene Wort gibt es je nach Schwierigkeit Cornichon-Punkte.
 
 Wie wird es eingerichtet?
 --------------------------
-Es muss ein Textkanal mit ``/antonymquiz setchannel`` konfiguriert werden.
+Es muss ein Textkanal mit ``/antonymquiz channel`` konfiguriert werden.
 
 # Es startet nicht, was soll ich tun?
 - Gebe ``/antonymquiz settings`` ein und schaue nach, ob Weemo den Kanal aufgelistet hat.

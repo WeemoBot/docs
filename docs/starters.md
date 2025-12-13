@@ -39,7 +39,7 @@ Falls Weemo deinen Server verwalten soll, könnten diese Funktionen ganz nützli
 <details>
   <summary>Begrüßungen und Verabschiedungen</summary>
 
-    Um neue Mitglieder zu begrüßen oder alte zu verabschieden, kannst du `/joinmessage` & `/leavemessage` benutzen und nach deinen Wünschen anpassen.
+    Um neue Mitglieder zu begrüßen oder alte zu verabschieden, kannst du `/greetings` benutzen und nach deinen Wünschen anpassen.
     Möchtest du neuen Mitgliedern beim Betritt eine Rolle geben, kannst du `/joinrole` benutzen.
 
 </details>
@@ -54,7 +54,7 @@ Weemo bietet verschiedene Möglichkeiten, soziale Profile einzurichten. Das muss
     In deinem Profil kannst du allgemeine Informationen über dich einsehen.
     Stelle deine eigene Biografie ein oder setze dir einen Banner, um deinem Profil eine eigene Note zu verpassen. <br />
     
-    Du findest alle Befehle mit `/profile`.
+    Du kannst dein Profil mit `/profile` anpassen.
 
 </details>
 
